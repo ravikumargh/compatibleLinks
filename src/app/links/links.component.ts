@@ -10,8 +10,9 @@ import * as platform from 'platform';
 })
 export class LinksComponent implements OnInit {
   public browserLinks = [];
-
+  
   constructor(private http: HttpClient) {
+    console.log(platform);
     this.getJSON().subscribe(data => {
       console.log(data);
       this.browserLinks = data;

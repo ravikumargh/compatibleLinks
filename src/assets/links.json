@@ -16,7 +16,7 @@
                 "isSupported": false
             },
             {
-                "name": "IE",
+                "name": "Microsoft Edge",
                 "isSupported": false
             }
         ]
@@ -38,13 +38,13 @@
                 "isSupported": false
             },
             {
-                "name": "IE",
+                "name": "Microsoft Edge",
                 "isSupported": false
             }
         ]
     },
     {
-        "name": "Application IE",
+        "name": "Application Edge",
         "url": "https://getbootstrap.com/",
         "browsers": [
             {
@@ -60,8 +60,8 @@
                 "isSupported": false
             },
             {
-                "name": "IE",
-                "isSupported": false
+                "name": "Microsoft Edge",
+                "isSupported": true
             }
         ]
     }
