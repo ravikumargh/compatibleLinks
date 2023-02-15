@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+var platform = require('platform');
 
 @Component({
   selector: 'app-root',

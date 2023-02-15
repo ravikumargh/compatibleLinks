@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Application Chrome",
+        "url": "https://openai.com/",
+        "browsers": [
+            {
+                "name": "Chrome",
+                "isSupported": true
+            },
+            {
+                "name": "Firefox",
+                "isSupported": false
+            },
+            {
+                "name": "Safari",
+                "isSupported": false
+            },
+            {
+                "name": "IE",
+                "isSupported": false
+            }
+        ]
+    },
+    {
+        "name": "Application Firefox",
+        "url": "https://angular.io/",
+        "browsers": [
+            {
+                "name": "Chrome",
+                "isSupported": false
+            },
+            {
+                "name": "Firefox",
+                "isSupported": true
+            },
+            {
+                "name": "Safari",
+                "isSupported": false
+            },
+            {
+                "name": "IE",
+                "isSupported": false
+            }
+        ]
+    },
+    {
+        "name": "Application IE",
+        "url": "https://getbootstrap.com/",
+        "browsers": [
+            {
+                "name": "Chrome",
+                "isSupported": false
+            },
+            {
+                "name": "Firefox",
+                "isSupported": false
+            },
+            {
+                "name": "Safari",
+                "isSupported": false
+            },
+            {
+                "name": "IE",
+                "isSupported": false
+            }
+        ]
+    }
+]
