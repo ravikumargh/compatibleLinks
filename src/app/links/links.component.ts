@@ -24,11 +24,17 @@ export class LinksComponent implements OnInit {
     return this.http.get("./assets/links.json");
   }
   public onGoToPage(browserLink){
+    let isSupported = false;
     browserLink.browsers.forEach(function (browser) {
       if (browser.name == platform.name && browser.isSupported) {
         console.log(browser);
         window.open(browserLink.url, '_blank').focus();
-      }
+        isSupported = true;
+        return ;
+      } 
   });
+    if (!isSupported) {
+        window.alert('This browser is not supported!!!');
+    }
   }
 }
